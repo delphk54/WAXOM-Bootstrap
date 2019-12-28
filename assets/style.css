@@ -19,5 +19,9 @@ header{
     z-index: 1;
     width: 40%;
 }
+.row1{
+    background-image: url(./photo/photos/photo\ clavier\ 2.png);
+    background-size: cover;
+}
 
 
