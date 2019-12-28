@@ -2,7 +2,22 @@ header{
     background-image: url(./photo/fond\ header.jpg);
     background-size: cover;
 }
-.col::after{
+
+.col1::after{
     content:"_______";
     clear: both;
 }
+#photo1{
+    z-index: 2;
+    width: 40%;
+}
+#photo2{
+    z-index: 3;
+    width: 40%;
+}
+#photo3{
+    z-index: 1;
+    width: 40%;
+}
+
+
