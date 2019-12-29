@@ -8,6 +8,9 @@ header{
     content:"_______";
     clear: both;
 }
+.col1{
+    text-align: center;
+}
 #photo1{
     z-index: 2;
     width: 40%;
