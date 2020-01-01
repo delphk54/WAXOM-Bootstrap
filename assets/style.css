@@ -1,16 +1,22 @@
+
+/* HEADER IMAGE DE FOND */
 header{
     background-image: url(./photo/fond\ header.jpg);
-    background-size: cover;
-    
+    background-size: cover;  
 }
 
+/* TRAITS SOUS LES 4 PARAGRAPHES ( AU DESSOUS DU HEADER ) */
 .col1::after{
     content:"_______";
     clear: both;
 }
+
+/* ALIGNEMENT AU CENTRE POUR LES 4 PARAGRAPHES */
 .col1{
     text-align: center;
 }
+
+/* SUPERPOSITION DES 3 IMAGES  */
 #photo1{
     z-index: 2;
     width: 40%;
@@ -23,10 +29,14 @@ header{
     z-index: 1;
     width: 40%;
 }
+
+/* IMAGES DE FOND CLAVIER " WAXOM VIDEO PRESENTATION " */
 .row1{
     background-image: url(./photo/photos/photo\ clavier\ 2.png);
     background-size: cover;
 }
+
+/*  IMAGE DE FOND POUR LES 4 LOGOS AU DESSUS DU FOOTER */
 .row2{
     background-image: url(./photo/photos/photo\ footer.png);
     background-size: cover;
